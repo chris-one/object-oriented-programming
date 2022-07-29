@@ -11,42 +11,50 @@ nav{
 h1 {
     font-size: 38px;
     text-align: center;
-    color:darkred;
+    color:darkslategrey;
 }
 
 div {
     background-color: azure;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .Manager {
     width: 300px;
-    border: 15px solid green;
+    border: 5px solid black;
     padding: 50px;
     margin: 20px;
     display: flex;
     justify-content: wrap;
+    height: 260px;
+    width: 180px;
+
 }
 
 .Employee {
     width: 300px;
-    border: 15px solid green;
+    border: 5px solid black;
     padding: 50px;
     margin: 20px;
     display: flex;
-    justify-content: wrap;
+    justify-content:inherit;
+    height: 260px;
+    width: 180px;
 }
 
 .Intern {
     width: 300px;
-    border: 15px solid green;
+    border: 5px solid black;
     padding: 50px;
     margin: 20px;
     display: flex;
     justify-content: wrap;
+    height: 260px;
+    width: 180px;
 }
 
 p {
-    color: black;
-    font-size: 2rem;
+    font-size: 20px;
+   
 }
