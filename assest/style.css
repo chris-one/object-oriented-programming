@@ -1,0 +1,52 @@
+
+body {
+    background-color: honeydew;
+}
+
+nav{
+    color: fuchsia;
+    height: 3rem;
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    color:darkred;
+}
+
+div {
+    background-color: azure;
+    display: flex;
+}
+
+.Manager {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: wrap;
+}
+
+.Employee {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: wrap;
+}
+
+.Intern {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: wrap;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
